@@ -1,6 +1,6 @@
 class TV{
   int polegadas=45;
-  int volume;
+  int volume=5;
   int canal;
   int voltagem=110;
   String marca;
