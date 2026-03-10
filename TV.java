@@ -15,9 +15,23 @@ class TV{
     return volume; 
     }
 
-   void diminuirVolume
-    
+    int diminuirVolume() {
+    if (volume > 1) {
+        volume--;
+       return volume;
   
+}
+      int subirCanal() {
+    canal++;
+    System.out.printf("Mudou para o canal: %d%n", canal);
+    return canal;
+}
+
+    int descerCanal() {
+    if (canal > 1) {
+        canal--;
+        printf("Mudou para o canal: %d%n", canal);
+    return canal;
 }
 
 //A televisão pode realizar as seguintes ações:
